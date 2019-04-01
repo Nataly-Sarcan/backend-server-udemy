@@ -1,0 +1,19 @@
+{
+    "name": "backen-server",
+    "version": "1.0.0",
+    "description": "Servidor backnd del curso angular Udemy",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nataly verdugo",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "mongoose": "^5.4.20"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
